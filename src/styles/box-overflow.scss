@@ -1,0 +1,39 @@
+.web-scroll {
+  pointer-events: all;
+  overflow: auto !important;
+  -webkit-overflow-scrolling: touch;
+  will-change: scroll-position;
+}
+
+.web-scroll-x {
+  pointer-events: all;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  will-change: scroll-position;
+}
+
+.web-scroll-y {
+  pointer-events: all;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch;
+  will-change: scroll-position;
+}
+
+.web-hidden-xy {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.web-hidden-x {
+  overflow-x: hidden !important;
+}
+
+.web-hidden-y {
+  overflow-y: hidden !important;
+}
+
+
+
+
+
+
