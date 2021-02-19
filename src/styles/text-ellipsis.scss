@@ -40,3 +40,15 @@
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
+
+/* replace paratactic spaces to one space and allow break */
+.web-text-fix {
+  white-space: pre-line !important;
+  word-break: break-all !important;
+}
+
+/* keep all spaces and allow break */
+.web-text-format {
+  white-space: pre-wrap !important;
+  word-break: break-all !important;
+}
